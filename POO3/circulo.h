@@ -6,11 +6,8 @@
 class Circulo{
 
     private:
-
         int raio;
-
     public:
-
         void setRaio(int r);
 
         int getArea();

@@ -22,4 +22,3 @@ int main(){
     std::cout << "O/A aluno/a "<< pessoa.nome << " tem " << pessoa.idade << " anos " << " e cursa " << pessoa.curso << " no IMD." <<std::endl;
     std::cout << "Ele/a esta no perído "<< pessoa.periodo << " e possui a matrícula " << pessoa.getMatricula()<< ".";
     return 0;
-}
