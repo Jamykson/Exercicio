@@ -12,20 +12,12 @@ class Animal{
 
     public:
 
-        void setNome(int n){
-            nome = n;
-        }
-        void setTipo(int t){
-            tipo = t;
-        }
+        void setNome(std::string n);
+        void setTipo(std::string t);
 
-        std::string getNome(){
-            return nome;
-        }
-        std::string getTipo(){
-            return tipo;
-        }
+        std::string getNome();
+        std::string getTipo();
 
-}
+};
 
 #endif
